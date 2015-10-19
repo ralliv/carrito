@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<title>Catalogo Adrián Villar</title>
+		<link rel="stylesheet" type="text/css" href="estilos_catalogo.css" media="screen" />
+	</head>
+	<body onload="ponerIDarticulo()">
+		<div id="contenedor">
+			<div id="h1">
+				<h1>Catalogo</h1>
+			</div>
+			<div id="catalogo">
+				<div class="producto" onclick="aniadirAlCarrito(this)">
+					<img src="portatil1.JPG">
+						<p class="parrafo"> Precio:</p>
+						<p class="precio">300</p>
+					</div>
+
+				<div class="producto" onclick="aniadirAlCarrito(this)">
+					<img src="portatil2.JPG">
+					<p class="parrafo"> Precio:</p>
+					<p class="precio">250</p>
+				</div>
+
+				<div class="producto" onclick="aniadirAlCarrito(this)">
+					<img src="portatil3.JPG">
+					<p class="parrafo"> Precio:</p>
+					<p class="precio">600</p>
+				</div>
+				
+			</div>
+			
+		</div>
+
+		<script type="text/javascript"src="catalogo.js"></script>
+	</body>
+</html>
